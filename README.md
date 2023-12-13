@@ -1,1 +1,0 @@
-# simple-disable-xml-rpc
