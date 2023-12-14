@@ -72,16 +72,18 @@ See the screenshots for examples of what these tools will return when the plugin
 
 == Changelog ==
 
+= 1.1 =
+* Redirect to settings page once the plugin is activated & Bug fix
+
 = 1.0 =
 * Initial Release
 
-= 1.1 =
-* Redirect to settings page once the plugin is activated & Bug fix
 
 == Upgrade Notice ==
 
+= 1.1 =
+* Redirect to settings page once the plugin is activated & Bug fix
+
 = 1.0 =
 * Initial Release
 
-= 1.1 =
-* Redirect to settings page once the plugin is activated & Bug fix
