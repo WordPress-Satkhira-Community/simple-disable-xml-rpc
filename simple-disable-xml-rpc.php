@@ -5,7 +5,7 @@
  * @package       SIMDISXMLRPC
  * @author        WordPress Satkhira Community
  * @license       gplv2
- * @version       1.0
+ * @version       1.1
  *
  * @wordpress-plugin
  * Plugin Name:   Simple Disable XML-RPC
@@ -106,3 +106,14 @@ function sdxr_add_action_links ( $actions ) {
    $actions = array_merge( $actions, $mylinks );
    return $actions;
 }
+
+// Redirect to settings page once the plugin is activated
+
+function sdxrpc_activation_redirect( $plugin ) {
+    if( $plugin == plugin_basename( __FILE__ ) ) {
+        exit( wp_redirect( admin_url( 'options-general.php?page=simple-disable-xml-rpc' ) ) );
+    }
+}
+add_action( 'activated_plugin', 'sdxrpc_activation_redirect' );
+
+
