@@ -3,7 +3,7 @@ Author URI: https://www.wpsatkhira.com
 Plugin URI: https://wordpress.org/plugins/simple-disable-xml-rpc/
 Donate link: 
 Contributors: wpdelower
-Tags: xmlrpc, xml, security, disable xml, disable xml rpc, simple disable xml rpc, ddos attacks
+Tags: xmlrpc, xml, security, disable xml, disable xml-rpc, simple disable xml-rpc, ddos attacks
 Requires at least: 5.7
 Tested up to: 6.4.2
 Requires PHP: 7.2
@@ -66,7 +66,9 @@ See the screenshots for examples of what these tools will return when the plugin
 6. Check the box
 
  == Screenshots ==
- 1. An example of the settings page interface
+ 
+1. An example of the error when XML RPC is disabled sucessfully.
+2. An example of Simple Disable XML-RPC Settings page.
 
 == Changelog ==
 
