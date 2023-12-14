@@ -75,7 +75,7 @@ function xmlrpc_disabler_init() {
 add_action('admin_init', 'xmlrpc_disabler_init');
 
 function xmlrpc_disabler_section_callback() {
-    echo __('Enable or disable XML-RPC functionality for the site.', 'simple-disable-xml-rpc');
+    echo __('XML-RPC is enabled by default in Wordpress. Enable or disable XML-RPC functionality for the site.', 'simple-disable-xml-rpc');
 }
 
 function xmlrpc_enabled_callback() {
