@@ -3,11 +3,11 @@ Author URI: https://www.wpsatkhira.com
 Plugin URI: https://wordpress.org/plugins/simple-disable-xml-rpc/
 Donate link: 
 Contributors: wpdelower
-Tags: xmlrpc, xml, security, disable xml, disable xml-rpc, simple disable xml-rpc, ddos attacks
+Tags: xmlrpc, xml, security, disable xml, disable xml rpc, simple disable xml rpc, ddos attacks
 Requires at least: 5.7
-Tested up to: 6.4.2
+Tested up to: 6.4.3
 Requires PHP: 7.2
-Stable tag: 1.1
+Stable tag: 1.2.2
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
@@ -38,6 +38,8 @@ Simple Disable XML-RPC is a powerful yet user-friendly WordPress plugin designed
 
 **Customer Support:** In case you encounter any difficulties or have questions, the plugin's support team is available to assist you, providing prompt and helpful responses.
 
+= Contributing & Bug Report =
+29	Bug reports and pull requests are welcome on [Github](https://github.com/WordPress-Satkhira-Community/simple-disable-xml-rpc).
 
 == Frequently Asked Questions ==
 
@@ -55,6 +57,18 @@ There are a few easy methods for checking if XML-RPC is off:
 
 See the screenshots for examples of what these tools will return when the plugin is enabled.
 
+= Does disabling XML-RPC improve website performance? =
+
+Yes, when XML-RPC is disabled, it can lead to improved website performance and resource optimization, especially for sites where remote connectivity features are unnecessary.
+
+= Is the Simple Disable XML-RPC plugin compatible with other WordPress themes and plugins? =
+
+Yes, the Simple Disable XML-RPC plugin is designed to work seamlessly with various WordPress themes and plugins. It is regularly updated to ensure compatibility with the latest versions of WordPress and to address any potential issues.
+
+= Is there customer support available for Simple Disable XML-RPC? =
+
+Yes, in case you encounter any difficulties or have questions, the plugin's support team is available to assist you and provide prompt and helpful responses.
+
 
 == Installation ==
 
@@ -63,27 +77,47 @@ See the screenshots for examples of what these tools will return when the plugin
 3. Search for `Simple Disable XML-RPC` and click 'Install Now' or click on the `upload` link to upload `simple-disable-xml-rpc.zip`
 4. Click on `Activate plugin`
 5. Click Settings or go to Settings > Simple Disable XML-RPC
-6. Check the box
+6. Check the box.
 
- == Screenshots ==
- 
-1. An example of the error when XML RPC is disabled sucessfully.
+== Screenshots ==
+
+1. An example of the error when XML RPC is disabled sucessfully
 2. An example of Simple Disable XML-RPC Settings page.
 
 == Changelog ==
 
+= 1.2.2 (February 21, 2024) =
+* Bug fix & improvements
+
+= 1.2.1 (January 31, 2024) =
+* Settings description Modified
+
+= 1.2 (January 31, 2024) =
+* compatible with WordPress 6.4.3
+* Bug fix
+* New FAQs Added
+
 = 1.1 =
 * Redirect to settings page once the plugin is activated & Bug fix
 
 = 1.0 =
 * Initial Release
-
 
 == Upgrade Notice ==
 
+= 1.2.2 (February 21, 2024) =
+* Bug fix & improvements
+
+= 1.2.1 (January 31, 2024) =
+* Settings description Modified
+
+= 1.2 (January 31, 2024) =
+* compatible with WordPress 6.4.3
+* Bug fix
+* New FAQs Added
+
 = 1.1 =
 * Redirect to settings page once the plugin is activated & Bug fix
 
 = 1.0 =
 * Initial Release
-

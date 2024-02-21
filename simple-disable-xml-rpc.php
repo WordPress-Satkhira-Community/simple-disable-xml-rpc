@@ -5,13 +5,13 @@
  * @package       SIMDISXMLRPC
  * @author        WordPress Satkhira Community
  * @license       gplv2
- * @version       1.1
+ * @version       1.2.2
  *
  * @wordpress-plugin
  * Plugin Name:   Simple Disable XML-RPC
  * Plugin URI:    https://wordpress.org/plugins/simple-disable-xml-rpc/
  * Description:   Simple Disable XML-RPC is a user-friendly WordPress plugin that empowers website administrators to easily control and secure their site by enabling or disabling the XML-RPC functionality. With a simple toggle switch, this plugin helps protect your WordPress site from potential XML-RPC-related security threats, enhancing your website's overall safety and performance.
- * Version:       1.1
+ * Version:       1.2.2
  * Requires at least: 5.7
  * Requires PHP:  7.2
  * Author:        WordPress Satkhira Community
@@ -69,13 +69,13 @@ function xmlrpc_disabler_page() {
 
 function xmlrpc_disabler_init() {
     register_setting('xmlrpc_disabler', 'xmlrpc_enabled');
-    add_settings_section('xmlrpc_disabler_section', __('Simple Disable XML-RPC Settings', 'simple-disable-xml-rpc'), 'xmlrpc_disabler_section_callback', 'xmlrpc-disabler');
+    add_settings_section('xmlrpc_disabler_section', __('Do you know?', 'simple-disable-xml-rpc'), 'xmlrpc_disabler_section_callback', 'xmlrpc-disabler');
     add_settings_field('xmlrpc_enabled', __('Disable XML-RPC', 'simple-disable-xml-rpc'), 'xmlrpc_enabled_callback', 'xmlrpc-disabler', 'xmlrpc_disabler_section');
 }
 add_action('admin_init', 'xmlrpc_disabler_init');
 
 function xmlrpc_disabler_section_callback() {
-    echo __('XML-RPC is enabled by default in Wordpress. Enable or disable XML-RPC functionality for the site.', 'simple-disable-xml-rpc');
+    echo __('XML-RPC was designed as a protocol enabling WordPress to communicate with third-party systems but recently it has been used in a number of exploits. Unless you specifically need to use it, we recommend that XML-RPC is always disabled.');
 }
 
 function xmlrpc_enabled_callback() {
@@ -115,5 +115,3 @@ function sdxrpc_activation_redirect( $plugin ) {
     }
 }
 add_action( 'activated_plugin', 'sdxrpc_activation_redirect' );
-
-
