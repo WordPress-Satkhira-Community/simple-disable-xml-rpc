@@ -6,8 +6,8 @@ Contributors: wpdelower
 Tags: xmlrpc, xml, security, disable xml, disable xml rpc, simple disable xml rpc, ddos attacks
 Requires at least: 5.7
 Tested up to: 6.4.3
-Requires PHP: 7.2
-Stable tag: 1.2.2
+Requires PHP: 7.4
+Stable tag: 1.2.3
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
@@ -38,10 +38,14 @@ Simple Disable XML-RPC is a powerful yet user-friendly WordPress plugin designed
 
 **Customer Support:** In case you encounter any difficulties or have questions, the plugin's support team is available to assist you, providing prompt and helpful responses.
 
-= Contributing & Bug Report =
+== Contributing & Bug Report ==
 29	Bug reports and pull requests are welcome on [Github](https://github.com/WordPress-Satkhira-Community/simple-disable-xml-rpc).
 
 == Frequently Asked Questions ==
+
+= What is XML-RPC, and why should I consider disabling it? =
+
+XML-RPC is a feature that allows remote communication with your WordPress site, but it can also pose security risks if not managed properly. Disabling it when not needed can enhance your site's security.
 
 = Is there an admin interface for this plugin? =
 
@@ -69,6 +73,9 @@ Yes, the Simple Disable XML-RPC plugin is designed to work seamlessly with vario
 
 Yes, in case you encounter any difficulties or have questions, the plugin's support team is available to assist you and provide prompt and helpful responses.
 
+= How frequently is the "Simple Disable XML-RPC" plugin updated? =
+
+The plugin is actively maintained and updated regularly to ensure compatibility with the latest versions of WordPress and to address any potential issues.
 
 == Installation ==
 
@@ -85,6 +92,9 @@ Yes, in case you encounter any difficulties or have questions, the plugin's supp
 2. An example of Simple Disable XML-RPC Settings page.
 
 == Changelog ==
+
+= 1.2.3 (March 11, 2024) =
+* Bug fix & improvements
 
 = 1.2.2 (February 21, 2024) =
 * Bug fix & improvements
