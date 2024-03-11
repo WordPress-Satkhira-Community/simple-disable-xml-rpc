@@ -115,6 +115,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 
 == Upgrade Notice ==
 
+= 1.2.3 (March 11, 2024) =
+* Bug fix & improvements
+
 = 1.2.2 (February 21, 2024) =
 * Bug fix & improvements
 
