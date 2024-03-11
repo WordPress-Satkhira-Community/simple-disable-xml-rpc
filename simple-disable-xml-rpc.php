@@ -115,33 +115,3 @@ function sdxrpc_activation_redirect( $plugin ) {
     }
 }
 add_action( 'activated_plugin', 'sdxrpc_activation_redirect' );
-
-
-
-
-@media all and (max width: 1200px){
-
-    h1{
-       
-     font-size: 40px;
-    }
-
-    p{
-        font-size: 10px;
-    }
-
-}
-
-
-@media all and (max width: 480px){
-
-    h1{
-       
-     font-size: 20px;
-    }
-
-    p{
-        font-size: 5px;
-    }
-
-}
