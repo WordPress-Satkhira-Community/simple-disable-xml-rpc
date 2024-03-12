@@ -5,7 +5,7 @@
  * @package       SIMDISXMLRPC
  * @author        WordPress Satkhira Community
  * @license       gplv2
- * @version       1.2.5
+ * @version       1.3
  *
  * @wordpress-plugin
  * Plugin Name:   Simple Disable XML-RPC
