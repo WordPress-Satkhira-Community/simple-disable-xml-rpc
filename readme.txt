@@ -3,16 +3,16 @@ Author URI: https://www.wpsatkhira.com
 Plugin URI: https://wordpress.org/plugins/simple-disable-xml-rpc/
 Donate link: 
 Contributors: wpdelower
-Tags: xmlrpc, xml, security, disable xml, disable xml rpc, simple disable xml rpc, ddos attacks
+Tags: disable xml, xmlrpc, xml, disable xml rpc, wordpress security
 Requires at least: 5.7
 Tested up to: 6.4.3
 Requires PHP: 7.4
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
 
-Simple Disable XML-RPC is a user-friendly WordPress plugin that empowers website administrators to easily control and secure their site by enabling or disabling the XML-RPC functionality. With a simple toggle switch, this plugin helps protect your WordPress site from potential XML-RPC-related security threats, enhancing your website\'s overall safety and performance.
+Simple Disable XML RPC plugin utilizes the native WordPress filter "xmlrpc_enabled" to deactivate the XML-RPC API on a WordPress site running version 3.5 or higher.
 
 == Description ==
 
@@ -93,6 +93,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 
 == Changelog ==
 
+= 1.2.4 (March 12, 2024) =
+* Plugin Bug fix & improvements
+
 = 1.2.3 (March 11, 2024) =
 * Bug fix & improvements
 
@@ -114,6 +117,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.2.4 (March 12, 2024) =
+* Plugin Bug fix & improvements
 
 = 1.2.3 (March 11, 2024) =
 * Bug fix & improvements
