@@ -93,6 +93,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 
 == Changelog ==
 
+= 1.2.5 (March 12, 2024) =
+* Plugin compatibility fixed
+
 = 1.2.4 (March 12, 2024) =
 * Plugin Bug fix & improvements
 
@@ -117,6 +120,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.2.5 (March 12, 2024) =
+* Plugin compatibility fixed
 
 = 1.2.4 (March 12, 2024) =
 * Plugin Bug fix & improvements
