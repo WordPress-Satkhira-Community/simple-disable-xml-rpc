@@ -12,7 +12,7 @@ License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
 
-Simple Disable XML RPC plugin utilizes the native WordPress filter "xmlrpc_enabled" to deactivate the XML-RPC API on a WordPress site running version 3.5 or higher.
+This plugin utilizes the native WordPress filter "xmlrpc_enabled" to deactivate the XML-RPC API on a WordPress site running version 3.5 or higher.
 
 == Description ==
 
