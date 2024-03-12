@@ -39,7 +39,7 @@ Simple Disable XML-RPC is a powerful yet user-friendly WordPress plugin designed
 **Customer Support:** In case you encounter any difficulties or have questions, the plugin's support team is available to assist you, providing prompt and helpful responses.
 
 == Contributing & Bug Report ==
-29	Bug reports and pull requests are welcome on [Github](https://github.com/WordPress-Satkhira-Community/simple-disable-xml-rpc).
+Bug reports and pull requests are welcome on [Github](https://github.com/WordPress-Satkhira-Community/simple-disable-xml-rpc).
 
 == Frequently Asked Questions ==
 
