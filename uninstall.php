@@ -4,7 +4,7 @@
  * @package       SIMDISXMLRPC
  * @author        WordPress Satkhira Community
  * @license       gplv2
- * @version       1.2.5
+ * @version       1.3
  */
 
 // If uninstall not called from WordPress, then exit.

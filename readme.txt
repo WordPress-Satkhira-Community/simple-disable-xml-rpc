@@ -7,7 +7,7 @@ Tags: disable xml, xmlrpc, xml, disable xml rpc, wordpress security
 Requires at least: 5.7
 Tested up to: 6.4.3
 Requires PHP: 7.4
-Stable tag: 1.2.5
+Stable tag: 1.3
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
@@ -93,6 +93,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 
 == Changelog ==
 
+= 1.3 (March 12, 2024) =
+* Performance and Security update
+
 = 1.2.5 (March 12, 2024) =
 * Plugin compatibility fixed
 
@@ -120,6 +123,9 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3 (March 12, 2024) =
+* Performance and Security update
 
 = 1.2.5 (March 12, 2024) =
 * Plugin compatibility fixed
