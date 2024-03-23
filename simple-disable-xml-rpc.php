@@ -90,7 +90,8 @@ function sdxr_add_action_links ( $actions ) {
 
 function sdxrpc_activation_redirect( $plugin ) {
     if( $plugin == plugin_basename( __FILE__ ) ) {
-        exit( wp_redirect( admin_url( 'options-general.php?page=simple-disable-xml-rpc' ) ) );
+        wp_safe_redirect( admin_url( 'options-general.php?page=simple-disable-xml-rpc' ) );
+exit;
     }
 }
 add_action( 'activated_plugin', 'sdxrpc_activation_redirect' );
