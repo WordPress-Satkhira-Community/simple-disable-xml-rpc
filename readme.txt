@@ -4,10 +4,10 @@ Plugin URI: https://wordpress.org/plugins/simple-disable-xml-rpc/
 Donate link: 
 Contributors: wpdelower, monarchwp23
 Tags: disable xml, xmlrpc, xml, disable xml rpc, wordpress security
-Requires at least: 5.7
-Tested up to: 6.4.3
+Requires at least: 6.1
+Tested up to: 6.6
 Requires PHP: 7.4
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.wpsatkhira.com/donate
@@ -93,6 +93,11 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 
 == Changelog ==
 
+= 1.3.3 (AJuly 17, 2024) =
+* Bug fix
+* Performance update
+* WordPress 6.6 Compatibility
+
 = 1.3.2 (April 02, 2024) =
 * Bug fix
 * Performance update
@@ -132,6 +137,11 @@ The plugin is actively maintained and updated regularly to ensure compatibility 
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.3.3 (AJuly 17, 2024) =
+* Bug fix
+* Performance update
+* WordPress 6.6 Compatibility
 
 = 1.3.2 (April 02, 2024) =
 * Bug fix
