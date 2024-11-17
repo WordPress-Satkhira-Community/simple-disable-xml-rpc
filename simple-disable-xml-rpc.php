@@ -5,13 +5,13 @@
  * @package       SIMDISXMLRPC
  * @author        WordPress Satkhira Community
  * @license       gplv2
- * @version       1.3.3
+ * @version       1.3.4
  *
  * @wordpress-plugin
  * Plugin Name:   Simple Disable XML-RPC
  * Plugin URI:    https://wordpress.org/plugins/simple-disable-xml-rpc/
  * Description:   Simple Disable XML-RPC is a user-friendly WordPress plugin that empowers website administrators to easily control and secure their site by enabling or disabling the XML-RPC functionality. With a simple toggle switch, this plugin helps protect your WordPress site from potential XML-RPC-related security threats, enhancing your website's overall safety and performance.
- * Version:       1.3.3
+ * Version:       1.3.4
  * Requires at least: 6.1
  * Requires PHP:  7.4
  * Author:        WordPress Satkhira Community
